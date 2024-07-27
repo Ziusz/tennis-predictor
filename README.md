@@ -173,7 +173,7 @@ Project is built with:
 * [Seaborn](https://seaborn.pydata.org/)
 * [Matplotlib](https://matplotlib.org/)
 
-Inspirated by: [Ahlem Jouidi's Notebook](https://www.kaggle.com/code/ahlemj/predict-atp-tennis/notebook).
+Inspired by: [Ahlem Jouidi's Notebook](https://www.kaggle.com/code/ahlemj/predict-atp-tennis/notebook).
 
 ## License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a><br /><a property="dct:title" rel="cc:attributionURL" href="https://github.com/ziusz/tennis-predictor">Tennis Predictor</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/ziusz">Ziusz</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a>.<br />Attribution of this project and <a href="">Jeff Sackmann's repository</a> is required. <br />Only noncommercial use of this project is permitted.<br />Adaptations must be shared under the same terms.</p>
