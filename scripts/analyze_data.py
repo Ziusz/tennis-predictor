@@ -2,6 +2,7 @@ import pandas as pd
 import glob
 import seaborn as sns
 import matplotlib.pyplot as plt
+import os
 
 def load_data(path_pattern):
 	files = glob.glob(path_pattern)
@@ -26,6 +27,8 @@ def eda(data):
 		'Missing Percentage (%)': missing_data_percentage
 	})
 	print(missing_data)
+
+	os.makedirs('data/processed/statistics', exist_ok=True)
 	missing_data.to_csv('data/processed/statistics/missing_data.csv', index=True)
 	
 	print("\nDescriptive statistics:")

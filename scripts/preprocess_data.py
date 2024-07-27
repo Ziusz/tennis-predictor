@@ -1,5 +1,6 @@
 import pandas as pd
 import glob
+import os
 
 def load_and_process_data(path_pattern):
 	files = glob.glob(path_pattern)
@@ -31,6 +32,7 @@ def load_and_process_data(path_pattern):
 		data_frames.append(losers)
 	
 	data = pd.concat(data_frames, ignore_index=True)
+	os.makedirs('data/processed', exist_ok=True)
 	data.to_csv('data/processed/final.csv', index=False)
 
 load_and_process_data('data/raw/JeffSackmann@tennis_atp/atp_matches_2*.csv')

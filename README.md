@@ -18,9 +18,10 @@ Many thanks to [Jeff Sackmann's repository](https://github.com/JeffSackmann/tenn
 ## Installation
 1. Clone this repository:  ```git clone https://github.com/Ziusz/tennis-predictor.git```
 2. Install python dependencies via pip: ```pip install -r requirements.txt```
-3. Initialize the data preprocessing script: ```python scripts/preprocess_data.py```
-4. Initialize the model learning script (It might take several hours ¯\_(ツ)_/¯): ```python scripts/train_models.py```
-5. If you want to use the web interface, install all frontend dependencies via npm: 
+3. Initialize Jeff Sackmann's repository: ```git submodule update --init --recursive```
+4. Initialize the data preprocessing script: ```python scripts/preprocess_data.py```
+5. Initialize the model learning script (It might take several hours ¯\_(ツ)_/¯): ```python scripts/train_models.py```
+6. If you want to use the web interface, install all frontend dependencies via npm: 
 ```bash
 cd frontend
 npm install

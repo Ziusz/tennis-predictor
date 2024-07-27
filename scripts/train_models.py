@@ -13,6 +13,11 @@ import joblib
 import sys
 import os
 
+os.makedirs('data/processed/statistics', exist_ok=True)
+os.makedirs('models/helpers', exist_ok=True)
+os.makedirs('models', exist_ok=True)
+os.makedirs('data/processed/bayes', exist_ok=True)
+
 data = pd.read_csv('data/processed/final.csv')
 
 features = ['surface', 'player_hand', 'player_ht', 'player_age',
