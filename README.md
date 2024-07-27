@@ -95,6 +95,7 @@ If you host the site locally, you can visit the URL http://localhost:8080.
 |**KNN**|65.95%|66.41%|64.54%|65.46%|
 |**Gradient Boosting**|67.31%|67.31%|67.33%|67.32%|
 |**XGBoost**|66.87%|66.87%|66.87%|66.87%|
+
 Random Forest is definitely the best one at the moment.\
 SVM has a very high recall rate, suggesting a problem with excessive false classifications.
 
