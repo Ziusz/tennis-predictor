@@ -3,7 +3,7 @@ from flask_cors import CORS
 import joblib
 import pandas as pd
 import numpy as np
-from cli import load_helpers, preprocess_input, predict, evaluate
+from scripts.cli import load_helpers, preprocess_input, predict, evaluate
 
 app = Flask(__name__)
 CORS(app)

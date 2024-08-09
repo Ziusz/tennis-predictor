@@ -109,7 +109,7 @@ def evaluate(model_name):
 
 if __name__ == "__main__":
 	if len(sys.argv) < 2:
-		print("Usage: python main.py [predict/evaluate] [args...]")
+		print("Usage: python cli.py [predict/evaluate] [args...]")
 	else:
 		command = sys.argv[1]
 		

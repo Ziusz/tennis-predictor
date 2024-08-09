@@ -44,7 +44,7 @@ python scripts/cli.py predict L 180 25.5 14 3500 R 198 21 44 1250 Grass G R32
 ```
 ### API
 There is also an optional API that allows to send HTTP requests to models.\
-To turn on API you need to initialize api script: ```python scripts/api.py```\
+To turn on API you need to initialize api script: ```python api.py```\
 There are 3 endpoints:
 * GET: **/players**, which returns JSON with all players info
 * GET: **/evaluate/<model_name>**, which returns JSON with metrics of chosen model
